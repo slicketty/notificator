@@ -1,0 +1,41 @@
+{
+  "name": "notificator",
+  "version": "0.4.0",
+  "description": "Notification system",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index",
+    "stop": "kill $(lsof -t -i:3000)",
+    "test": "npm run lint && npm run testonly",
+    "testonly": "jest",
+    "watch": "nodemon index"
+  },
+  "dependencies": {
+    "agenda": "2.0.2",
+    "aws-sdk": "2.499.0",
+    "celebrate": "10.0.1",
+    "dotenv": "8.0.0",
+    "express": "4.17.1",
+    "hashids": "1.2.2",
+    "lodash": "4.17.15",
+    "logplease": "1.2.15",
+    "mongodb": "3.2.7",
+    "mongoose": "5.6.6",
+    "mysql2": "1.6.5",
+    "sequelize": "5.10.2",
+    "sexy-require": "1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.13.6",
+    "eslint-plugin-prettier": "3.1.0",
+    "jest": "24.8.0",
+    "nodemon": "1.19.1",
+    "prettier": "1.18.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "http-acceptor-sample",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "stop": "kill $(lsof -t -i:8080)",
+    "watch": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
