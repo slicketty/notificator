@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "agenda": "2.0.2",
-    "aws-sdk": "2.499.0",
+    "aws-sdk": "2.814.0",
     "celebrate": "10.0.1",
     "dotenv": "8.0.0",
     "express": "4.17.1",
