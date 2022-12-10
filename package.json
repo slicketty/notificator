@@ -17,7 +17,7 @@
     "aws-sdk": "2.499.0",
     "celebrate": "10.0.1",
     "dotenv": "8.0.0",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "hashids": "1.2.2",
     "lodash": "4.17.15",
     "logplease": "1.2.15",
